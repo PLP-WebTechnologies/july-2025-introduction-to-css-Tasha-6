@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--This contains metadata about your website-->
+    <meta charset="UTF-8">
+    <!--Helps search engines & users understand your page.-->
+    <meta name="description" content=" My first HTML assignment.">
+    <!--Viewport ensure the page adapts to different screen sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Assignment</title>
+    <link rel="icon" href="https://i.pinimg.com/736x/27/84/ec/2784ecf6247d78738e6bf3ac08a565fb.jpg" type="image/jpeg">
+    <!--Link to external CSS file for styling-->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--This is the header section of the webpage-->
+        <h1>First Assignment</h1>
+    </header>
+
+    <main>
+        <section class="introduction">
+            <h2>Introduction</h2>
+            <!--This section introduces the assignment-->
+            <p>Welcome to my first HTML assignment. This webpage demonstrates my understanding of the basic HTML structure and elements</p>
+            <p>In this assignment, I will showcase various HTML elements including lists and images.</p>
+            <p>This is my first assignment for the HTML course.</p>
+        </section>
+
+        <section class="lists">
+            <h3>Ordered List</h3>
+            <ol type="i">
+                <li>Introduction to HTML</li>
+                <li>Understanding Tags and Elements</li>
+                <li>Creating a Simple Webpage</li>
+            </ol>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Using Headings and Paragraphs</li>
+                <li>Adding Links and Images</li>
+                <li>Working with Lists</li>
+            </ul>
+        </section>
+
+        <section class="table">
+            <table border="1">
+                <caption><strong> Web design table</strong></caption>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>HyperText Markup Language</td>
+                    <td>HTML describes the structure of a Web page. </td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Cascading Style Sheets</td>
+                    <td>used to describe the presentation and formatting of a document written in a markup language, most commonly HTML. </td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Programming language for web development</td>
+                    <td>is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Image with Embedded Audio</h2>
+            <div>
+                <img src="Bloom copy.jpeg" alt="Bloom Album Cover" width="250" height="300">
+                  <br>
+                <audio controls>
+                  <source src="Aqyila - Bloom (Official Audio) [Yi0al4MbA6g] copy.mp3" type="audio/mpeg">
+                  <source src="song.ogg" type="audio/ogg">
+                   Your browser does not support the audio element. 
+                 </audio>
+               </div>
+        </section>
+        <section>
+            <h3>Form</h3>
+            <form action="action_page.php" method="post">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" placeholder="Enter First name" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Email address" autocomplete="on" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="password"><br><br>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Tanisha Nyakundi - HTML Assignment</p>
+    </footer>
+</body>
+</html>
